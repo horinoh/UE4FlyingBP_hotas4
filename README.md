@@ -1,4 +1,4 @@
-# UE4FlyingBP_Hotas4
+# UE4FlyingBP_hotas4
 
 ## “K—p‚ÌŽd•û (How to apply)
 - hotas4 ‚ð‚Â‚È‚® (Connect hotas4)
