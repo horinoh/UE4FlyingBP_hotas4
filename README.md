@@ -7,12 +7,13 @@
 - Edit - Plugins - Input Devices - Windows RawInput ÇóLå¯Ç…Ç∑ÇÈ (Edit - Plugins - Input Devices - Enable Windows RawInput)
 
 ## Ç‚Ç¡ÇΩÇ±Ç∆ (What I have done)
-- Raw Input ÇÃê›íËÇí«â¡ÇµÇΩ (Added Raw Input settings)
+- DefaultInput.ini
+    - Raw Input ÇÃê›íËÇí«â¡ÇµÇΩ (Added Raw Input settings)
+    - MoveUp, MoveRight, Thrust Ç… GenericUSBController_Axis<N> Çí«â¡ (Added GenericUSBController_Axis<N> to MoveUp, MoveRight, Thrust)
 ~~~
 [/Script/RawInput.RawInputSettings]
 +DeviceConfigurations=(VendorID="0x044F",ProductID="0xB67C",AxisProperties=((Key=GenericUSBController_Axis1,bInverted=True,Offset=0.500000),(Key=GenericUSBController_Axis2,Offset=-0.500000),(Key=GenericUSBController_Axis3,Offset=-0.500000),(bEnabled=False,Key=GenericUSBController_Axis4),(bEnabled=False,Key=GenericUSBController_Axis5),(bEnabled=False,Key=GenericUSBController_Axis6),(Key=GenericUSBController_Axis7,Offset=-0.500000),(Key=GenericUSBController_Axis8,bInverted=True,Offset=0.500000)),ButtonProperties=((Key=GenericUSBController_Button1),(Key=GenericUSBController_Button2),(Key=GenericUSBController_Button3),(Key=GenericUSBController_Button4),(Key=GenericUSBController_Button5),(Key=GenericUSBController_Button6),(Key=GenericUSBController_Button7),(Key=GenericUSBController_Button8),(Key=GenericUSBController_Button9),(Key=GenericUSBController_Button10),(Key=GenericUSBController_Button11),(Key=GenericUSBController_Button12),(Key=GenericUSBController_Button13),(Key=GenericUSBController_Button14),(Key=GenericUSBController_Button15),(Key=GenericUSBController_Button16),(Key=GenericUSBController_Button17),(Key=GenericUSBController_Button18),(Key=GenericUSBController_Button19),(Key=GenericUSBController_Button20)))
 ~~~
-- DefaultInput.ini ÇÃ MoveUp, MoveRight, Thrust Ç… GenericUSBController_Axis<N> Çí«â¡ (Added GenericUSBController_Axis<N> to MoveUp, MoveRight, Thrust in DefaultInput.ini)
 ~~~
 [/Script/Engine.InputSettings]
 ...
